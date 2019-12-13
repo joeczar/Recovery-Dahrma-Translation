@@ -6,11 +6,11 @@ Translate the Table of contents.
 
 create German .md files for each chapter.
 
-Google Translate each chapter.
+Deep l https://www.deepl.com/translator each chapter.
 
 Correct Google Translations and check tone.
 
-Proof from Native German Speakers.
+Proof from Native German Speakers of translation and source.
 
 Both groups vote to approve final chapter translations.
  
