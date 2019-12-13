@@ -8,7 +8,7 @@ const chapterTitles = fs.readFileSync('00-Inhaltsverzeichniss.txt').toString().r
  
 //Prepare Chapter Titles for Filenames
 const chapterFileNames = chapterTitles.map((title, index) => {
-  title = `${1 + index.toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false})}-${title.trim().replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?]/g,"").replace(/ /g, "_")}`;
+  title = `${index.toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false})}-${title.trim().replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?]/g,"").replace(/ /g, "_")}`;
   return title;
 });
 
